@@ -128,3 +128,6 @@ body {
 .background {
     background-color: var(--navyblue, #2E2F42);
 }
+.bottom {
+    color: var(--cloud, #F4F4FD);
+}
