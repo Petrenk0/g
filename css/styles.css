@@ -1,3 +1,16 @@
 body {
     font-family: "Roboto", "Raleway", sans-serif;
 }
+.header-logo {
+    color: var(--navyblue, #2E2F42);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.header-logo-blue {
+    color: var(--iris, #4D5AE5);
+}
