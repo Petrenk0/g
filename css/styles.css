@@ -132,3 +132,6 @@ body {
 .bottom {
     color: var(--cloud, #F4F4FD);
 }
+.footer-text {
+    background-color: var(--navyblue, #2E2F42);
+}
