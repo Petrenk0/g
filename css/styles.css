@@ -43,6 +43,13 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.header-link-studio {
+    color: #2e2f42;
+    font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
 .header-link:hover {
     color: #404bbf;
 }
@@ -112,21 +119,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-/*.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-} */
-
 .job-title {
     color: var(--navyblue, #2E2F42);
     text-align: center;
