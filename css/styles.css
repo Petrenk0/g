@@ -20,7 +20,7 @@ body {
     color: #2E2F42;
 }
 .header-logo-white {
-    color: #f4f4fd
+    color: #f4f4fd;
 }
 .header-logo-blue {
     color: #404bbf;
@@ -37,7 +37,7 @@ body {
 }
 
 .header-link {
-    color: var(--navyblue, #2E2F42);
+    color: #434455;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -55,7 +55,7 @@ body {
 
 .list {
     list-style: none;
-    text-decoration: none
+    text-decoration: none;
 
 }
 
@@ -80,13 +80,13 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
-    cursor: pointer
+    cursor: pointer;
 }
 .hero-btn:hover {
-    background-color: #404BBF
+    background-color: #404BBF;
 }
 .hero-btn:focus {
-    background-color: #404BBF
+    background-color: #404BBF;
 }
 
 .advantages-list {
@@ -138,10 +138,10 @@ body {
 }
 
 .team {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
 }
 .team-list-item {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 .team-title {
     color: var(--navyblue, #2E2F42);
