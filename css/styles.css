@@ -1,13 +1,32 @@
+
+:root {
+    --main-font: "Roboto", sans-serif;
+    --side-font: "Raleway", sans-serif;
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --main-cl: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: #2e2f42; 
+    --grey: #2e2f42;
+    --white: #ffffff;
+    --dairy: #fcfcfc;
+}
+
 body {
-    font-family: "Roboto",sans-serif;
-    color: #434455;
-    background-color: #ffffff;
+    font-family: var(--main-font);
+    color:var(--main-cl);
+    background-color: var(--white);
 
 }
 
+
 .header-logo {
-    color: #4d5ae5;
-    font-family: "Raleway",sans-serif;
+    color: var(--iris);
+    font-family: var(--side-font);
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
@@ -17,37 +36,37 @@ body {
 }
 
 .header-logo-black {
-    color: #2E2F42;
+    color: var(--grey);
 }
 .header-logo-white {
-    color: #f4f4fd;
+    color: var(--cloud);
 }
 .header-logo-blue {
-    color: #404bbf;
+    color: var(--ocean);
 }
 
 .link {
     text-decoration: none;
 }
 .link:hover {
-    color: #404bbf;
+    color: var(--ocean);
 }
 .link:focus {
-    color: #404bbf;
+    color: var(--ocean);
 }
 
 .header-link {
-    color:#2e2f42;
+    color:var(--grey);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .header-link:hover {
-    color: #404bbf;
+    color: var(--ocean);
 }
 .header-link:focus {
-    color:#404bbf;
+    color:var(--ocean);
 }
 .address {
     font-style: normal;
@@ -60,7 +79,7 @@ body {
 }
 
 .hero {
-    background-color: var(--navyblue, #2E2F42);
+    background-color: var(--navy-blue);
 }
 
 .hero-title {
