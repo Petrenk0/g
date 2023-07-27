@@ -1,4 +1,3 @@
-
 :root {
     --main-font: "Roboto", sans-serif;
     --side-font: "Raleway", sans-serif;
@@ -10,7 +9,7 @@
     --light-slate: #8e8f99;
     --cornflower: #e7e9fc;
     --cloud: #f4f4fd;
-    --navy-blue-modal: #2e2f42; 
+    --navy-blue-modal: #2e2f42;
     --grey: #2e2f42;
     --white: #ffffff;
     --dairy: #fcfcfc;
@@ -18,11 +17,15 @@
 
 body {
     font-family: var(--main-font);
-    color:var(--main-cl);
+    color: var(--main-cl);
     background-color: var(--white);
 
 }
 
+.header {
+    padding-top: 28px;
+    padding-bottom: 30px;
+}
 
 .header-logo {
     color: var(--iris);
@@ -38,9 +41,11 @@ body {
 .header-logo-black {
     color: var(--grey);
 }
+
 .header-logo-white {
     color: var(--cloud);
 }
+
 .header-logo-blue {
     color: var(--ocean);
 }
@@ -48,26 +53,49 @@ body {
 .link {
     text-decoration: none;
 }
+
 .link:hover {
     color: var(--ocean);
 }
+
 .link:focus {
     color: var(--ocean);
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .header-link {
-    color:var(--grey);
+    color: var(--grey);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 .header-link:hover {
     color: var(--ocean);
 }
+
 .header-link:focus {
-    color:var(--ocean);
+    color: var(--ocean);
 }
+
 .address {
     font-style: normal;
 }
@@ -80,7 +108,11 @@ body {
 
 .hero {
     background-color: var(--navy-blue);
+    padding: 260px 472px;
+    margin-bottom: 80px;
 }
+
+.hero-wrap {}
 
 .hero-title {
     color: var(--white, #FFF);
@@ -89,11 +121,12 @@ body {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    margin-bottom: 58px;
 }
 
 .hero-btn {
     color: var(--white, #FFF);
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -101,9 +134,11 @@ body {
     background-color: #4D5AE5;
     cursor: pointer;
 }
+
 .hero-btn:hover {
     background-color: #404BBF;
 }
+
 .hero-btn:focus {
     background-color: #404BBF;
 }
@@ -131,6 +166,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 .job-title {
     color: var(--navyblue, #2E2F42);
     text-align: center;
@@ -144,9 +180,11 @@ body {
 .team {
     background-color: #F4F4FD;
 }
+
 .team-list-item {
     background-color: #FFFFFF;
 }
+
 .team-title {
     color: var(--navyblue, #2E2F42);
     text-align: center;
@@ -197,23 +235,26 @@ body {
 
 .description {
     color: var(--navyblue, #2E2F42);
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
+
 .subdescription {
     color: var(--slate, #434455);
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
+
 .footer {
     background-color: #2e2f42;
 }
+
 .button {
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -222,14 +263,33 @@ body {
     background-color: #F4F4FD;
     cursor: pointer;
 }
+
 .button:hover {
     color: #FFFFFF;
-     background-color: #404BBF;
+    background-color: #404BBF;
 }
+
 .button:focus {
     color: #FFFFFF;
-     background-color: #404BBF;
+    background-color: #404BBF;
 }
+
 .contacts {
-    color:#434455;
+    color: #434455;
+}
+
+.container {
+    width: 100%;
+    max-width: 1128px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.container-btn {
+    width: 100%;
+    max-width: 584px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
