@@ -143,12 +143,18 @@ ol {
     background-color: #404BBF;
 }
 
+.advantages {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
 .advantages-list {
     color: var(--slate, #434455);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02;
+    padding: 0 18px;
 }
 
 .advantages-subtitle {
@@ -157,6 +163,7 @@ ol {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .advantages-list-text {
@@ -175,10 +182,25 @@ ol {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    max-width: 323px;
+    margin-bottom: 72px;
+    margin-top: 120px;
+    margin: 0 auto;
+}
+.job-image {
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .team {
     background-color: #F4F4FD;
+}
+.team-title {
+    padding-top: 120px;
+}
+.team-image {
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .team-list-item {
@@ -193,6 +215,8 @@ ol {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 
 .team-member {
@@ -202,6 +226,8 @@ ol {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    margin-top: 32px;
 }
 
 .team-text {
