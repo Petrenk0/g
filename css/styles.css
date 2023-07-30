@@ -24,7 +24,21 @@ body {
 
 .header {
     padding-top: 28px;
-    padding-bottom: 30px;
+        padding-bottom: 30px;
+}
+.header-navigation {
+    display: flex;
+    align-items: center;
+    
+}
+.header-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
 }
 
 .header-logo {
@@ -36,6 +50,9 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+    margin-right: 76px;
+    display: flex;
+    align-items: center;
 }
 
 .header-logo-black {
@@ -98,6 +115,8 @@ ol {
 
 .address {
     font-style: normal;
+    display: flex;
+        margin-left: auto;
 }
 
 .list {
@@ -108,7 +127,7 @@ ol {
 
 .hero {
     background-color: var(--navy-blue);
-    padding: 260px 472px;
+    padding: 188px 472px 292px 472px;
     margin-bottom: 80px;
 }
 
@@ -122,6 +141,7 @@ ol {
     line-height: 1.07;
     letter-spacing: 0.02em;
     margin-bottom: 58px;
+
 }
 
 .hero-btn {
@@ -133,14 +153,25 @@ ol {
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
     cursor: pointer;
+    display: inline-flex;
+        padding: 16px 32px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 4px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+            border: none;
+            margin-left: 380px;
+
 }
 
 .hero-btn:hover {
     background-color: #404BBF;
+    color: var(--white, #FFF);
 }
 
 .hero-btn:focus {
     background-color: #404BBF;
+    color: var(--white, #FFF);
 }
 
 .advantages {
@@ -155,6 +186,11 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02;
     padding: 0 18px;
+    display: flex;
+    gap: 24px;
+}
+.advantages-list-item {
+   width: calc((100% - 3 * 24px) /4); 
 }
 
 .advantages-subtitle {
@@ -199,14 +235,21 @@ ol {
     padding-top: 120px;
 }
 .team-image {
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 32px;
+        padding-bottom: 32px;
+    width: 100%;
+    max-width: 264px;
 }
 
 .team-list-item {
+display: inline-flex;
+    padding-bottom: 0px;
+    margin-bottom: 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border-radius: 0px 0px 4px 4px;
-        background: var(--white, #FFF);
+    background: var(--white, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-title {
@@ -229,7 +272,6 @@ ol {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    margin-top: 32px;
 }
 
 .team-text {
@@ -282,6 +324,10 @@ ol {
 
 .footer {
     background-color: #2e2f42;
+    padding: 102px 1169px 100px 200px;
+}
+.footer-text {
+    padding-top: 18px;
 }
 
 .button {
@@ -307,6 +353,7 @@ ol {
 
 .contacts {
     color: #434455;
+        margin-left: auto;
 }
 
 .container {
