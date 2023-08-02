@@ -21,10 +21,14 @@ body {
     background-color: var(--white);
 
 }
+img {
+    display: block
+}
 
 .header {
     padding-top: 28px;
         padding-bottom: 30px;
+        border-bottom: 1px solid #e7e9fc
 }
 .header-navigation {
     display: flex;
@@ -34,7 +38,10 @@ body {
 .header-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
+
 }
+
 
 .header-container {
     display: flex;
@@ -129,9 +136,9 @@ ol {
     background-color: var(--navy-blue);
     padding: 188px 472px 292px 472px;
     margin-bottom: 80px;
-}
+    padding: 188px 0;
 
-.hero-wrap {}
+}
 
 .hero-title {
     color: var(--white, #FFF);
@@ -141,6 +148,7 @@ ol {
     line-height: 1.07;
     letter-spacing: 0.02em;
     margin-bottom: 58px;
+    max-width: 496px;
 
 }
 
@@ -153,7 +161,7 @@ ol {
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
     cursor: pointer;
-    display: inline-flex;
+    display: block;
         padding: 16px 32px;
         align-items: flex-start;
         gap: 10px;
@@ -161,6 +169,8 @@ ol {
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
             border: none;
             margin-left: 380px;
+            min-width: 169px;
+            height: 56px;
 
 }
 
@@ -190,7 +200,7 @@ ol {
     gap: 24px;
 }
 .advantages-list-item {
-   width: calc((100% - 3 * 24px) /4); 
+   width: calc((100% - 72px) / 4);
 }
 
 .advantages-subtitle {
@@ -209,6 +219,9 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.job {
+    padding-bottom: 120px;
+}
 
 .job-title {
     color: var(--navyblue, #2E2F42);
@@ -219,29 +232,45 @@ ol {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     max-width: 323px;
-    margin-bottom: 72px;
     margin-top: 120px;
     margin: 0 auto;
+    margin-bottom: 72px;
 }
 .job-image {
     padding-left: 24px;
     padding-right: 24px;
 }
+.job-list {
+    display: flex;
+    gap: 24px;
+}
+.job-list-item {
+    width: calc((100% - 48px) / 3);
+}
 
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0;
+}
+.team-wrap {
+    padding: 32px 0;
+
 }
 .team-title {
     padding-top: 120px;
+    margin-bottom: 72px;
 }
 .team-image {
         padding-bottom: 32px;
     width: 100%;
     max-width: 264px;
 }
+.team-list {
+    display: flex;
+    gap: 24px;
+}
 
 .team-list-item {
-display: inline-flex;
     padding-bottom: 0px;
     margin-bottom: 120px;
     flex-direction: column;
@@ -250,6 +279,7 @@ display: inline-flex;
     border-radius: 0px 0px 4px 4px;
     background: var(--white, #FFF);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    width: calc((100% - 72px) / 4);
 }
 
 .team-title {
@@ -324,11 +354,19 @@ display: inline-flex;
 
 .footer {
     background-color: #2e2f42;
-    padding: 102px 1169px 100px 200px;
+    padding: 100px 0;
 }
 .footer-text {
     padding-top: 18px;
+    max-width: 264px;
+    
 }
+#footer-container {
+    display: inline-block;
+        margin-bottom: 16px;
+                
+}
+
 
 .button {
     font-family: "Roboto", sans-serif;
@@ -357,8 +395,7 @@ display: inline-flex;
 }
 
 .container {
-    width: 100%;
-    max-width: 1128px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -370,4 +407,17 @@ display: inline-flex;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+}
+.visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+    
+            white-space: nowrap;
+            clip-path: inset(100%);
+            clip: rect(0 0 0 0);
+            overflow: hidden;
 }
