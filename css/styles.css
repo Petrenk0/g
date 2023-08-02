@@ -38,7 +38,6 @@ img {
 .header-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 
 }
 
@@ -58,8 +57,9 @@ img {
     text-transform: uppercase;
     text-decoration: none;
     margin-right: 76px;
-    display: flex;
     align-items: center;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .header-logo-black {
@@ -109,7 +109,10 @@ ol {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em;   
+}
+.header-menu-item {
+    padding: 24px 0;
 }
 
 .header-link:hover {
@@ -200,7 +203,7 @@ ol {
     gap: 24px;
 }
 .advantages-list-item {
-   width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .advantages-subtitle {
@@ -322,6 +325,8 @@ ol {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    background-color: var(--navyblue, #2E2F42);
+    
 }
 
 .background {
@@ -330,10 +335,6 @@ ol {
 
 .bottom {
     color: var(--cloud, #F4F4FD);
-}
-
-.footer-text {
-    background-color: var(--navyblue, #2E2F42);
 }
 
 .description {
