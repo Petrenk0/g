@@ -442,3 +442,8 @@ padding: 24px 0;
     border-top: none;
     margin-bottom: 8px;
 }
+.portfolio-list {
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
