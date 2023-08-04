@@ -59,7 +59,7 @@ img {
     margin-right: 76px;
     align-items: center;
     display: inline-block;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .header-logo-black {
@@ -130,6 +130,10 @@ padding: 24px 0;
 
 .list {
     list-style: none;
+    display: flex;
+    column-gap: 24px;
+    row-gap: 48px;
+
 }
 
 .hero {
@@ -336,6 +340,7 @@ padding: 24px 0;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .subdescription {
