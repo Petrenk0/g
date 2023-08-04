@@ -35,7 +35,7 @@ img {
     align-items: center;
     
 }
-#header-list {
+.header-list {
     display: flex;
     gap: 40px;
 
@@ -191,11 +191,6 @@ padding: 24px 0;
     
 }
 .advantages-list {
-    color: var(--slate, #434455);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02;
     display: flex;
     gap: 24px;
 }
@@ -236,7 +231,7 @@ padding: 24px 0;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    max-width: 323px;
+    width: 323px;
     margin-top: 120px;
     margin: 0 auto;
     margin-bottom: 72px;
