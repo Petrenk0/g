@@ -60,6 +60,9 @@ img {
     align-items: center;
     display: inline-block;
     margin-bottom: 16px;
+    transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-logo-black {
@@ -111,6 +114,10 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;   
 padding: 24px 0;
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
@@ -140,6 +147,11 @@ padding: 24px 0;
     padding: 188px 472px 292px 472px;
     margin-bottom: 80px;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+         url(../images/2/hero-bg\ 1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
 
 }
 
@@ -153,6 +165,7 @@ padding: 24px 0;
     margin: 0 auto;
     margin-bottom: 48px;
     max-width: 496px;
+   
 
 }
 
@@ -175,6 +188,9 @@ padding: 24px 0;
             margin: 0 auto;
             min-width: 169px;
             height: 56px;
+            transition-property: background-color;
+                transition-duration: 250ms;
+                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -191,7 +207,17 @@ padding: 24px 0;
 .advantages {
     padding-top: 120px;
     padding-bottom: 120px;
-    
+}
+.advantages-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    width: 264px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background: var(--cloud, #F4F4FD);
+
 }
 .advantages-list {
     display: flex;
@@ -252,6 +278,44 @@ padding: 24px 0;
     background-color: #F4F4FD;
     padding: 120px 0;
 }
+.team-icon-list {
+    display: flex;
+        justify-content: center;
+    gap: 24px;
+        padding-bottom: 32px;
+        list-style-type: none;
+}
+.team-icon-item {
+    width: 40px;
+    height: 40px;
+}
+
+.team-icon-link {
+    width: 100%;
+    height: 100%;
+border-radius: 50%;
+    background-color: #4D5AE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.team-icon-link:hover {
+    background-color: #404bbf;
+}
+
+.team-icon-link:focus {
+    background-color: #404bbf;
+}
+.team-vector {
+    fill: #f4f4fd;
+}
+
+
 .team-wrap {
     padding: 32px 0;
 
@@ -300,7 +364,7 @@ padding: 24px 0;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
+        margin-bottom: 8px;
 }
 
 .team-text {
@@ -310,7 +374,6 @@ padding: 24px 0;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
     padding-left: 60px;
     padding-right: 60px;
 }
@@ -359,12 +422,68 @@ padding: 24px 0;
     max-width: 264px;
     
 }
-#footer-container {
-    display: inline-block;
+.footer-container-top {
+    display: flex;
+        align-items: baseline;    
+}
+.footer-container {
+    display: flex;
+    margin-bottom: 16px;
+    margin-left: 156px;
+       
+}
+.footer-icon-text {
+    color: var(--white);
+        font-family: var(--main-font);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
         margin-bottom: 16px;
-                
+
 }
 
+.footer-list {
+    display: flex;
+    gap:16px;   
+    list-style: none;
+    margin-right: 804px;
+}
+
+.footer-icon-link {
+    width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: #4D5AE5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition-property: background-color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-icon-link:hover {
+    background-color: #31d0aa;
+}
+
+.footer-icon-link:focus {
+    background-color: #31d0aa;
+}
+
+.footer-icon-item {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-vector {
+    fill: #f4f4fd;
+}
+#footer-icon {
+        align-items: center;
+        justify-content: center;
+        padding-right: 804px;
+}
 
 .button {
     font-family: "Roboto", sans-serif;
@@ -378,6 +497,9 @@ padding: 24px 0;
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
+    transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover {
@@ -410,6 +532,33 @@ padding: 24px 0;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+}
+.customers-title {
+    color: var(--navy-blue);
+        text-align: center;
+        font-family: var(--main-font);
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        padding-top: 120px;
+}
+
+.customers-icon {
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+        border: 1px solid var(--lightslate, #8E8F99);
+}
+.customers-list {
+display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+.customers-item {
+    margin-top:  70px;
+    margin-bottom: 120px;
 }
 .visually-hidden {
             position: absolute;
