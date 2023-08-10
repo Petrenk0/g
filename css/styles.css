@@ -28,7 +28,10 @@ img {
 .header {
     padding-top: 28px;
         padding-bottom: 30px;
-        border-bottom: 1px solid #e7e9fc
+        border-bottom: 1px solid #e7e9fc;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-navigation {
     display: flex;
@@ -55,7 +58,7 @@ img {
 }
 
 .header-logo {
-    color: var(--iris);
+    color: var(--ocean);
     font-family: var(--side-font);
     font-size: 18px;
     font-weight: 800;
@@ -70,6 +73,16 @@ img {
     transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.header-logo::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
 }
 
 .header-logo-black {
@@ -115,7 +128,7 @@ ol {
 }
 
 .header-link {
-    color: var(--grey);
+    color: var(--navy-blue);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -124,9 +137,8 @@ padding: 24px 0;
 transition-property: color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 }
-
+   
 
 .header-link:hover {
     color: var(--ocean);
@@ -154,6 +166,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     padding: 188px 472px 292px 472px;
     margin-bottom: 80px;
     padding: 188px 0;
+    max-width: 1440px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
          url(../images/2/hero-bg\ 1.jpg);
         background-repeat: no-repeat;
@@ -198,6 +211,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             transition-property: background-color;
                 transition-duration: 250ms;
                 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                
 
 }
 
